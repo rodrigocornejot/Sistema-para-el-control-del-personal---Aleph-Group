@@ -1,0 +1,59 @@
+.barra{
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    transition: .4s all;
+    z-index: 2;    
+    width: 15%;
+    height: 100%;
+    background-color: rgba(5, 33, 51, 0.98);
+    display: none;
+}
+
+.barra ul{
+    padding: 0%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.barra li{
+    transition: .3s all;
+    list-style:none;
+    width: 100%;
+}
+
+.barra a{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    transition: .3s all;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.barra h2{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    padding-bottom: 7px;
+    font-size: 35px;
+}
+
+.barra img{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.barra a:hover{
+    font-size: 25px;
+    padding: 30px 0px;
+    background-color: rgba(22, 78, 112,0.98);
+}
+
+.fas {
+    font-size: 1.8em;
+}
+
+.sliderbar{
+    float: left;
+    width: 5%;
+}
